@@ -22,14 +22,20 @@ const projects = [
   },
 ];
 
+const cardColors = [
+  "from-purple-200 to-pink-100 border-purple-100",
+  "from-blue-200 to-emerald-100 border-emerald-100",
+  "from-yellow-100 to-orange-100 border-orange-100",
+];
+
 const OngoingProjects = () => (
-  <section className="bg-white rounded-xl shadow p-6 mb-8">
-    <h3 className="text-xl font-semibold mb-4 text-primary">Projects I'm Working On</h3>
+  <section className="bg-blue-50 rounded-xl shadow p-6 mb-8 border border-blue-100">
+    <h3 className="text-xl font-semibold mb-4 text-blue-700">Projects I'm Working On</h3>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-      {projects.map((project) => (
+      {projects.map((project, i) => (
         <a
           href={project.link}
-          className="block bg-gradient-to-br from-primary/60 to-blue-200 rounded-lg p-4 shadow hover:shadow-lg transition transform hover:-translate-y-1"
+          className={`block bg-gradient-to-br ${cardColors[i % cardColors.length]} rounded-lg p-4 shadow hover:shadow-lg transition transform hover:-translate-y-1 border`}
           key={project.name}
           target="_blank" rel="noopener"
         >
@@ -37,7 +43,7 @@ const OngoingProjects = () => (
           <p className="text-gray-900 mb-2 text-sm min-h-[48px]">{project.desc}</p>
           <div className="flex gap-2 flex-wrap">
             {project.tech.map((tech) => (
-              <span key={tech} className="text-xs bg-blue-50 border text-blue-800 border-blue-200 rounded px-2 py-0.5">{tech}</span>
+              <span key={tech} className="text-xs bg-white/70 border text-blue-800 border-blue-200 rounded px-2 py-0.5">{tech}</span>
             ))}
           </div>
         </a>

@@ -7,7 +7,7 @@ import OngoingProjects from "@/components/OngoingProjects";
 
 const Index = () => {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-blue-100 via-white to-blue-200 flex justify-center px-2 py-10">
+    <main className="min-h-screen bg-gradient-to-br from-pink-100 via-blue-100 to-emerald-100 flex justify-center px-2 py-10">
       <div className="w-full max-w-4xl mx-auto">
         <PersonalInfo />
         <FamilyBackground />

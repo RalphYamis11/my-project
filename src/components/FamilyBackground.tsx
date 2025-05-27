@@ -2,8 +2,8 @@
 import React from "react";
 
 const FamilyBackground = () => (
-  <section className="bg-white rounded-xl p-6 shadow mb-8">
-    <h3 className="text-xl font-semibold mb-2 text-primary">Family Background</h3>
+  <section className="bg-indigo-50 rounded-xl p-6 shadow mb-8 border border-indigo-100">
+    <h3 className="text-xl font-semibold mb-2 text-indigo-600">Family Background</h3>
     <p className="text-gray-700 leading-relaxed">
       I was raised in a family that values creativity and learning. My parents, both educators, encouraged curiosity;
       my older sibling helped introduce me to computers at a young age. We enjoy family board game nights and yearly hiking trips!
