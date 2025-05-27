@@ -3,16 +3,16 @@ import React from "react";
 
 const workExperience = [
   {
-    company: "WebStudios Ltd.",
-    position: "Frontend Developer",
-    period: "2021 – 2023",
-    description: "Developed responsive UI for SaaS apps using React and Tailwind. Collaborated with backend team to implement API integrations and state management.",
+    company: "FJ Weagon Farm",
+    position: "Egg collector",
+    period: "2021 – 2022",
+    description: "I collect chicken eggs in my designated section/rows.",
   },
   {
-    company: "Acme Agency",
-    position: "Junior Web Developer",
-    period: "2019 – 2021",
-    description: "Maintained and updated client websites (WordPress & Laravel). Learned the foundations of modern web development.",
+    company: "Country Village Hotel",
+    position: "Waiter",
+    period: "20 – 2022",
+    description: "Helps with anything a waiter can do.",
   },
 ];
 

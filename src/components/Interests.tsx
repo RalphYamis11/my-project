@@ -2,13 +2,13 @@
 import React from "react";
 
 const interests = [
-  "UI/UX Design",
-  "Open Source",
+  "Sim Racing Games",
+  "DIYs",
   "Photography",
   "Music Production",
   "Machine Learning",
-  "Basketball",
-  "Traveling",
+  "Hiking",
+  "Video Editing",
 ];
 
 const pastelColors = [

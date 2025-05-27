@@ -9,7 +9,7 @@ const projects = [
     link: "#"
   },
   {
-    name: "Family Budget App",
+    name: "Student Budget App",
     desc: "A Laravel + Vue application for collaborative family expense tracking and planning.",
     tech: ["Laravel", "Vue", "PostgreSQL"],
     link: "#"
