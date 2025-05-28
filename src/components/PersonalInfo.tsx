@@ -12,12 +12,12 @@ const PersonalInfo = () => {
       <h2 className="text-2xl font-bold mb-1 tracking-tight text-pink-700">Ralp Lorenz Yamis</h2>
       <p className="text-emerald-700 text-sm mb-2">Information Technology Student</p>
       <p className="max-w-prose text-gray-700 text-center mb-2">
-        Have plenty of habits and loves to spend alone and play some games.
+        Have plenty of habits and loves to spend some time alone and play some games.
       </p>
       <div className="flex gap-4 mt-2">
-        <a href="mailto:alexwebman@email.com" className="text-pink-600 hover:underline text-sm">ryamis53@gmail.com</a>
-        <a href="https://github.com/alexwebman" target="_blank" rel="noopener" className="text-gray-700 hover:underline text-sm">GitHub</a>
-        <a href="https://www.linkedin.com/in/alexwebman" target="_blank" rel="noopener" className="text-gray-700 hover:underline text-sm">LinkedIn</a>
+        <a href="https://www.youtube.com/@BoozerL4D2" className="text-pink-600 hover:underline text-sm">Boozer_L4D2</a>
+        <a href="https://github.com/RalphYamis11" target="_blank" rel="noopener" className="text-gray-700 hover:underline text-sm">GitHub</a>
+        <a href="https://www.instagram.com/ralpnlorenz/" target="_blank" rel="noopener" className="text-gray-700 hover:underline text-sm">Instagram</a>
       </div>
     </section>
   );
