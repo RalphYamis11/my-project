@@ -5,7 +5,7 @@ const PersonalInfo = () => {
   return (
     <section className="bg-pink-50/60 backdrop-blur-lg rounded-2xl shadow-lg p-8 flex flex-col items-center mb-8 border border-pink-100">
       <img 
-        src="c:\Users\yamis\Pictures\Saved Pictures\avatar(2).png" 
+        src="/avatar(2).png" 
         alt="Profile"
         className="w-32 h-32 rounded-full border-4 border-emerald-200 mb-4 shadow"
       />

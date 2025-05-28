@@ -10,7 +10,7 @@ const FamilyBackground = () => (
     <ul className="mt-3 space-y-1 ml-5 list-disc text-gray-800 text-sm">
       <li>Father: Delivery Truck Driver</li>
       <li>Mother: Internet Sevice Agent</li>
-      <li>Siblings: 3 Sister (1 Professional License Teacher, and the rest is currently a students)</li>
+      <li>Siblings: 3 Sister (1 Licensed Professional Teacher and the rest is currently a student)</li>
     </ul>
   </section>
 );

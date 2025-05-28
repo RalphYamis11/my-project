@@ -6,19 +6,19 @@ const projects = [
     name: "Portfolio Builder",
     desc: "A React web app to help developers quickly spin up personal portfolios with Live Preview.",
     tech: ["React", "Tailwind", "Vite"],
-    link: "#"
+    link: "https://portfolio.io/"
   },
   {
     name: "Student Budget App",
     desc: "A Laravel + Vue application for collaborative family expense tracking and planning.",
     tech: ["Laravel", "Vue", "PostgreSQL"],
-    link: "#"
+    link: "https://www.ucas.com/advisers/help-and-training/guides-resources-and-training/pre-application-support/student-budget-planner"
   },
   {
-    name: "MusicMatch",
-    desc: "A social music discovery platform built with Next.js, GraphQL, and Tailwind.",
-    tech: ["Next.js", "GraphQL", "Tailwind"],
-    link: "#"
+    name: "Spotify Mod",
+    desc: "An online music streaming platform that broke fellas like me would enjoy",
+    tech: ["Next.py", "SQLite", "Laravel"],
+    link: "https://www.spotifyinfo.app/"
   },
 ];
 
